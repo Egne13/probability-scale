@@ -1,7 +1,9 @@
 event,probability
 Coin toss heads,0.5
-Born male,0.51
-Rain tomorrow,0.3
+Rain tomorrow in Tallinn,0.35
+Seeing a moose in Estonian forest (RMK area),0.02
+Forest fire in Estonia (summer),0.01
 Getting flu in a year,0.1
-Lightning strike in lifetime,0.00001
+Car accident on a given day,0.0004
 Winning lottery jackpot,0.0000001
+Rain in Tallinn (from API),0.35
