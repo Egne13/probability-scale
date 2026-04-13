@@ -43,3 +43,11 @@ This project demonstrates how rare events (like forest fires or lottery wins) ar
 The goal is to improve intuition about uncertainty using real-world inspired Estonian data.
 
 Open interactive map: outputs/estonia_rain_heatmap.html
+
+## Interactive visualizations
+
+- Rain heatmap  
+https://egne13.github.io/probability-scale/outputs/estonia_rain_heatmap.html
+
+- RMK dashboard  
+https://egne13.github.io/probability-scale/outputs/rmk_dashboard.html
