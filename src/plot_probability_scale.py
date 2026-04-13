@@ -1,23 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data
 df = pd.read_csv("data/events.csv")
 
-# Create figure
-plt.figure(figsize=(10,5))
+# sortime väiksemast suuremani
+df = df.sort_values("probability")
 
-# Scatter plot
-plt.scatter(df["probability"], df["event"])
+plt.figure(figsize=(10,6))
 
-# Log scale for probabilities
+plt.barh(df["event"], df["probability"])
+
 plt.xscale("log")
 
-# Labels
 plt.xlabel("Probability (log scale)")
-plt.ylabel("Events")
 plt.title("Probability Scale of Real-World Events")
 
-plt.grid(True)
-
+plt.tight_layout()
 plt.show()
+
+plt.grid(True, which="both", linestyle="--", alpha=0.3)
