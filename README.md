@@ -35,3 +35,9 @@ The dataset includes Estonian and nature-related events inspired by real-world s
 ```bash
 pip install -r requirements.txt
 python3 src/plot_probability_scale.py
+
+## 🌍 Key Insight
+
+This project demonstrates how rare events (like forest fires or lottery wins) are compared to everyday probabilities such as weather changes.
+
+The goal is to improve intuition about uncertainty using real-world inspired Estonian data.
