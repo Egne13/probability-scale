@@ -41,3 +41,5 @@ python3 src/plot_probability_scale.py
 This project demonstrates how rare events (like forest fires or lottery wins) are compared to everyday probabilities such as weather changes.
 
 The goal is to improve intuition about uncertainty using real-world inspired Estonian data.
+
+Open interactive map: outputs/estonia_rain_heatmap.html
